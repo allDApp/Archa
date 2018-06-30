@@ -30,9 +30,6 @@ $(function() {
 				var tempStr = "";
 
 				for (var i = 0; i < res.length; i++) {
-					if (i == 2){
-						i += 1
-					}
 					if (i % 2 == 0) {
 						tempStr += '<div class="panel-body"> ';
 					} else {
